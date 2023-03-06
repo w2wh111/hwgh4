@@ -227,7 +227,7 @@
         }
       ],
       "destination": "/uk/:path*",
-      "permanent": false
+      "permanent": true
     }
   ]
 }
