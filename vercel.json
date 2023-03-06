@@ -1,18 +1,12 @@
 {"redirects": [
-    { "source": "/og125", "destination": "http://169.254.169.254"},
-    { "source": "/og126", "destination": "http://metadata.nicob.net/"},
-    { "source": "/og127", "destination": "http://169.254.169.254.nip.io/"},
-    { "source": "/og128", "destination": "http://1ynrnhl.nip.io/"},
-    { "source": "/og129", "destination": "http://www.owasp.org.1ynrnhl.nip.io/"},
-    { "source": "/og130", "destination": "http://nicob.net/redir6a"},
-    { "source": "/og131", "destination": "http://nicob.net/redir-http-169.254.169.254:80-"},
-    { "source": "/og132", "destination": "http://425.510.425.510/"},
-    { "source": "/og133", "destination": "http://2852039166/"},
-    { "source": "/og134", "destination": "http://7147006462/"},
-    { "source": "/og135", "destination": "http://0xA9.0xFE.0xA9.0xFE/"},
-    { "source": "/og136", "destination": "http://0xA9FEA9FE/"},
-    { "source": "/og137", "destination": "http://0x41414141A9FEA9FE/"},
-    { "source": "/og138", "destination": "http://0251.0376.0251.0376/"},
-    { "source": "/og139", "destination": "http://0251.00376.000251.0000376/"}
+    { "source": "/og190", "destination": "http://metadata.google.internal/computeMetadata/v1/instance/id"},
+    { "source": "/og191", "destination": "http://metadata.google.internal/computeMetadata/v1/project/project-id"},
+    { "source": "/og192", "destination": "http://100.100.100.200/latest/meta-data/instance-id"},
+    { "source": "/og193", "destination": "http://100.100.100.200/latest/meta-data/image-id"},
+    { "source": "/og194", "destination": "http://127.0.0.1:2379/version"},
+    { "source": "/og195", "destination": "http://127.1:80"},
+    { "source": "/og196", "destination": "http://0"},
+    { "source": "/og197", "destination": "http://[0000::1]:80/"},
+    { "source": "/og198", "destination": "http://[0:0:0:0:0:ffff:127.0.0.1]/"}
   ]
 }
