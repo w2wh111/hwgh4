@@ -36,21 +36,5 @@
       "destination": "/uk/:path*",
       "permanent": false
     }
-  ],"routes": [
-    {
-      "src": "/og3",
-      "status": 308,
-      "headers": { "Location": "https://example.com/" }
-    },
-    {
-      "src": "/og4",
-      "headers": { "cache-control": "s-maxage=1000" },
-      "dest": "https://vercel.com"
-    },
-    { "src": "/api", "dest": "/my-api.js" },
-    { "src": "/users", "methods": ["POST"], "dest": "/users-api.js" },
-    { "src": "/users/(?<id>[^/]*)", "dest": "/users-api.js?id=$id" },
-    { "src": "/legacy", "status": 404 },
-    { "src": "/og5", "dest": "https://www.web.com/" }
   ]
 }
