@@ -1,25 +1,8 @@
-{
-  "rewrites": [
-    { "source": "/about", "destination": "/about-our-company.html" },
-    { "source": "/resize/:width/:height", "destination": "/api/sharp" },
-    {
-      "source": "/og1",
-      "destination": "https://gg.vercel.app/"
-    },
-    {
-      "source": "/:path((?!uk/).*)",
-      "has": [
-        {
-          "type": "header",
-          "key": "x-vercel-ip-country",
-          "value": "GB"
-        }
-      ],
-      "destination": "/uk/:path*"
-    }
-  ],"redirects": [
-    { "source": "/me", "destination": "/profile.html" },
-    { "source": "/user", "destination": "/api/user", "permanent": false },
+{"redirects": [
+    { "source": "/og6", "destination": "https://uniquename.vercel.app/" },
+    { "source": "/og7", "destination": "file:///etc/passwd"},
+    { "source": "/og8", "destination": "http://127.0.0.1"},
+    { "source": "/og9", "destination": "http://169.254.169.254/latest/user-data"},  
     {
       "source": "/og2",
       "destination": "https://github.com/vercel/vercel"
