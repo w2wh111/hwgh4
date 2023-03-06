@@ -5,7 +5,6 @@
     { "source": "/og193", "destination": "http://100.100.100.200/latest/meta-data/image-id"},
     { "source": "/og194", "destination": "http://127.0.0.1:2379/version"},
     { "source": "/og195", "destination": "http://127.1:80"},
-    { "source": "/og196", "destination": "http://0"},
     { "source": "/og197", "destination": "http://[0000::1]:80/"},
     { "source": "/og198", "destination": "http://[0:0:0:0:0:ffff:127.0.0.1]/"}
   ]
