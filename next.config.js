@@ -3,3 +3,8 @@ module.exports = {
     customkey: 'customval',
   },
 }
+
+return {
+    env,
+  }
+}
