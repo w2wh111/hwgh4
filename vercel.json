@@ -1,9 +1,1 @@
-{"redirects": [
-    { "source": "/og190", "destination": "http://metadata.google.internal/computeMetadata/v1/instance/id"},
-    { "source": "/og191", "destination": "http://metadata.google.internal/computeMetadata/v1/project/project-id"},
-    { "source": "/og192", "destination": "http://100.100.100.200/latest/meta-data/instance-id"},
-    { "source": "/og193", "destination": "http://100.100.100.200/latest/meta-data/image-id"},
-    { "source": "/og194", "destination": "http://127.0.0.1:2379/version"},
-    { "source": "/og195", "destination": "http://127.1:80"}
-  ]
-}
+{"public":true}
